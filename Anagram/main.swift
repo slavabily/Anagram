@@ -22,9 +22,14 @@ func anagram(s: String) -> Int {
         return -1
     }
     print("\(arr1)\n\(arr2)")
-     
-    return 0
+    var n = 0
+    for i in arr1 {
+        if !arr2.contains(i) {
+            n += 1
+        }
+    }
+    return n
 }
 
-print(anagram(s: "abccde"))
+print(anagram(s: "xaxbbbxx"))
 
