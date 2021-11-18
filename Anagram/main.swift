@@ -7,5 +7,10 @@
 
 import Foundation
 
-print("Hello, World!")
+func anagram(s: String) -> Int {
+     
+    return -1
+}
+
+print(anagram(s: "abccde"))
 
